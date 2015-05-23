@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sofrência</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_splash">Arrocha Na Sofrência Beta</string>
+    <string name="title_activity_assistir_video">Assistir Video</string>
+    <string name="titulo">Título</string>
+    <string name="artista">Artista</string>
+    <string name="duracao">Duração</string>
+    <string name="ano">Ano</string>
+    <string name="canal_youtube">Canal no Youtube</string>
+
+</resources>

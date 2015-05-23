@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.com.qx.ms.app.arrocha.AssistirVideo" >
+    
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtube"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/youtube"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="201dp"
+        android:text="@string/titulo"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/ano"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/duracaoTV"
+        android:layout_below="@+id/duracaoTV"
+        android:text="@string/ano"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/artistaTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titulo"
+        android:layout_alignTop="@+id/titulo"
+        android:layout_marginTop="17dp"
+        android:text="@string/artista"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/duracaoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/artistaTV"
+        android:layout_below="@+id/artistaTV"
+        android:text="@string/duracao"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/canal_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ano"
+        android:layout_below="@+id/ano"
+        android:layout_marginTop="32dp"
+        android:text="@string/canal_youtube"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
